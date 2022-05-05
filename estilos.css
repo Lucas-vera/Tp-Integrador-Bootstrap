@@ -1,5 +1,61 @@
+@media only screen and (max-width: 2000px){
+    .textoPortada{
+        margin-top: 15%;
+    }
+    .portada{
+        background-image: url(img/ba1.jpg);
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        height: 580px;
+        color: #fff;
+    }
+    .navbar-center {
+        margin: auto;
+    }
+}
 
+@media only screen and (max-width: 980px){
+    .textoPortada{
+        margin-top: 15%;
+    }
+    .portada{
+        background-image: url(img/ba1.jpg);
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        height: 580px;
+        color: #fff;
+    }
+    .navbar-center {
+        margin: auto;
+    }
+}
 
+@media only screen and (min-width: 981px){
+    .textoPortada{
+        margin-top: 10%;
+    }
+    .portada{
+        background-image: url(img/ba1.jpg);
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 580px;
+        color: #fff;
+    }
+
+    .navbar-center {
+        margin: auto;
+        padding-left: 6em;
+    }
+    .f-link{
+        margin-right: 4.3em;
+    }
+}
 
 @media only screen and (min-width: 2000px){
     .textoPortada{
@@ -16,21 +72,6 @@
     }
 }
 
-@media only screen and (max-width: 2000px){
-    .textoPortada{
-        margin-top: 15%;
-    }
-    .portada{
-        background-image: url(img/ba1.jpg);
-        
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
-        background-size: cover;
-        background-position: center bottom;
-        height: 580px;
-        color: #fff;
-    }
-}
-
 .botonComprar{
     background-color: rgb(5, 184, 5);
     border: rgb(5, 184, 5);
@@ -38,14 +79,8 @@
 .cards{
     width: 75%;
 }
-.navbar-center {
-    margin-left: 4%;
-}
-.f-link{
-    margin-right: 4.3em;
-}
+
 .texto-centrado{
     margin-top: 0;
     padding-top: 0;
-
 }
