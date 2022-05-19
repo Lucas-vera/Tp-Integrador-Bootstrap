@@ -19,6 +19,6 @@ function calcularTotal(){
 
 var btnEnviar = document.getElementById("botonResumen");
 
-btnEnviar.addEventListener("click",()=>{
-    this.preventDefault();
+btnEnviar.addEventListener("click",(e)=>{
+    e.preventDefault();
 })
