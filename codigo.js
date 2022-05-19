@@ -11,15 +11,13 @@ function calcularTotal(){
         descuento= 0.15;
     }
 
+    if(cantidad<0){
+        alert("Ingresa un numero positivo en cantidad");
+    }
     let totalAPagar = 200*cantidad-(200*descuento*cantidad);
 
     let cartel = document.getElementById("cartelTotal");
     cartel.value="  Total a Pagar: $ "+totalAPagar;
 }
 
-var btnEnviar = document.getElementById("botonResumen");
 
-btnEnviar.addEventListener("click",(e)=>{
-    e.preventDefault();
-    calcularTotal();
-})
