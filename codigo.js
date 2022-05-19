@@ -21,4 +21,5 @@ var btnEnviar = document.getElementById("botonResumen");
 
 btnEnviar.addEventListener("click",(e)=>{
     e.preventDefault();
+    calcularTotal();
 })
