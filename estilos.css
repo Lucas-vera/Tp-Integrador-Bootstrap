@@ -84,3 +84,15 @@
     margin-top: 0;
     padding-top: 0;
 }
+.cartel{
+    margin-right: 0.2em;
+}
+.cf{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 1350px){
+    .carteles{
+        width: 100%;
+    }
+}
